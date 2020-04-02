@@ -4,6 +4,7 @@ module.exports = {
     description: `Discover the most incredible hidden beaches for surfing, snorkeling, scuba diving or simply seeing nature in all its glory.`,
     author: `TacticApps`,
   },
+  pathPrefix: "/BeachHop",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {

@@ -1,29 +1,29 @@
-import React, { Component } from 'react'
+import React, { Component } from "react"
 
-import NavLink from './NavLink/NavLink'
+import NavLink from "./NavLink/NavLink"
 
 class Navigation extends Component {
   state = {
     links: [
       {
-        name: 'About Natours',
-        address: '#section-about',
+        name: "About Beach Hop",
+        address: "#section-about",
       },
       {
-        name: 'Your benefits',
-        address: '#section-features',
+        name: "Your benefits",
+        address: "#section-features",
       },
       {
-        name: 'Popular tours',
-        address: '#section-tours',
+        name: "Popular tours",
+        address: "#section-tours",
       },
       {
-        name: 'Testimonials',
-        address: '#section-testimonials',
+        name: "Testimonials",
+        address: "#section-testimonials",
       },
       {
-        name: 'Book now',
-        address: '#section-book',
+        name: "Book now",
+        address: "#section-book",
       },
     ],
     checked: false,
